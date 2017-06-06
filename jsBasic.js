@@ -1,45 +1,57 @@
+/*
 // Step 1
 var a = 100;
 var b = 200;
 console.log(a + b);
-
+*/
 
 /*
 // step 2
 var cars = ['ferrari', 'porsche', 'mustang'];
 var animals = ['cat', 'dog', 'lemur'];
 var things = [cars, animals]
-console.log(cars[0])
-console.log(animals[1])
+
+// should display porsche
+console.log(things[0][1]);
+// should display dog
+console.log(things[1][1])
 */
+
 
 
 /*
-// step 3 & 4
-function high(number){
-	if (number < 100) {
-		alert ('lesser than 100');
-	}else {
-		alert ('greater than 100');
-	}
+// step 3
+var your_number = parseInt(prompt("Enter a number:"));
+
+if (your_number < 100) {
+	alert("It's less than 100!");
+} else {
+	alert("It's more than 100, you chose " + your_number);
 }
-high(110);
 */
 
+/*
+// Step 4
+var your_number = parseInt(prompt("Enter a number:"));
+your_number *= 10;
+if (your_number < 100) {
+	alert("It's less than 100!");
+} else {
+	alert("It's more than 100, you chose " + your_number);
+}
+*/
 
 /*
 // step 5
-var list = "exact";
-function string(Devon){
-	if (Devon === list) {
-		console.log('same');
+var list = parseInt(prompt("What is the air speed of an African Swallow:")); {
+	if (list === 666) {
+		alert('that is correct');
 	}else {
-		console.log('not same');
+		alert('INCORRECT');
 	}
 }
-
-string("exact")
 */
+
 
 
 /*
